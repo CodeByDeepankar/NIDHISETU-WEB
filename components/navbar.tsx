@@ -6,6 +6,7 @@ import { Menu, X } from 'lucide-react';
 import { Container } from '@/components/ui/container';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
+import Image from 'next/image';
 
 export function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -37,7 +38,7 @@ export function Navbar() {
         <nav className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <img src="/icon.png" alt="NIDHISETU Logo" className="h-8 w-8 rounded-lg" />
+            <Image src="/icon.png" alt="NIDHISETU Logo" className="h-8 w-8 rounded-lg" />
             <span className={cn("text-xl font-bold tracking-tight", isScrolled ? "text-slate-900" : "text-slate-900")}>
               NIDHISETU
             </span>
