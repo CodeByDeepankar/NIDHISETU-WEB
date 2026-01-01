@@ -9,7 +9,7 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div className="col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <Image src="/icon.png" alt="NIDHISETU Logo" className="h-8 w-8 rounded-lg" />
+              <Image width={300} height={300} src="/icon.png" alt="NIDHISETU Logo" className="h-8 w-8 rounded-lg" />
               <span className="text-xl font-bold text-white tracking-tight">
                 NIDHISETU
               </span>

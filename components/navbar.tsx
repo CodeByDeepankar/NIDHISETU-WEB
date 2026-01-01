@@ -38,7 +38,7 @@ export function Navbar() {
         <nav className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <Image src="/icon.png" alt="NIDHISETU Logo" className="h-8 w-8 rounded-lg" />
+            <Image width={300} height={300} src="/icon.png" alt="NIDHISETU Logo" className="h-8 w-8 rounded-lg" />
             <span className={cn("text-xl font-bold tracking-tight", isScrolled ? "text-slate-900" : "text-slate-900")}>
               NIDHISETU
             </span>
